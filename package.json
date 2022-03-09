@@ -1,0 +1,21 @@
+{
+  "name": "test-unbuild-with-pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "unbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "unbuild": "^0.6.9"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.31"
+  }
+}
